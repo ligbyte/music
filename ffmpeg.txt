@@ -9,3 +9,9 @@ ffmpeg -i shaonian.mp4 -q:a 0 -map a shaonian.mp3
 
 
 ffmpeg -i aaaa.mp3 -ss 0 -t 60 -c copy output_audio.mp3
+
+
+
+
+ffmpeg -i input.mp3 -ss 160 -to 210 -c copy output.mp3
+
